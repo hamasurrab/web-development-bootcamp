@@ -1,0 +1,24 @@
+body{
+    background-color: antiquewhite;
+}
+hr{
+    /* border-color: black;
+    border-style: dotted none none; */
+    /* border: 10px solid black; */
+    height: 5px;
+    width: 5%;
+    
+    /* padding: 10rem;
+    margin: 10rem; */
+    
+}
+h1{
+    color: #66bfbf;
+}
+h3{
+    color: #66bfbf;
+}
+
+img {
+    width: 159px;
+}

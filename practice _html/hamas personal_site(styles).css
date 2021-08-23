@@ -1,0 +1,27 @@
+img{
+    width: 15%;
+    
+    
+}
+body{
+    background-color:blanchedalmond;
+}
+.contact{
+    background-color: cornsilk;
+}
+
+h3{
+    color: crimson;
+}
+h1{
+    color: green;
+    
+}
+
+hr{
+  
+    /* width: 10%; */
+    background-color: black;
+    
+    
+}
