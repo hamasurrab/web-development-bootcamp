@@ -3,17 +3,24 @@
     width: 300px;
     height: 250px;
     border: solid 10px;
-   margin: 0;
+    text-align: center;
+    
+   
+   
 }
 .mid{
     background-color: yellow;
     width: 300px;
     height: 250px;
     border: solid 10px;
+    margin-left: 320px;
+    text-align: center;
 }
 .bottom{
     background-color: grey;
     width: 300px;
     height: 250px;
     border: solid 10px;
+    margin-left: 640px;
+    text-align: center;
 }
