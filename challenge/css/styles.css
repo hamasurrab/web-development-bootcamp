@@ -12,7 +12,7 @@ p{
 
 
 .top_container{
-    background-color: antiquewhite;
+    background-color: rgb(255, 94, 0);
     width: 200px;
    height: 200px;
    border : solid 10px;
@@ -22,7 +22,7 @@ p{
 .middle_container{
    width: 200px;
    height: 200px;
-    background-color: rgb(255, 94, 0);
+    background-color: antiquewhite;
     align-items: center;
     margin-left: 260px;
     border: solid 20px;
@@ -30,7 +30,7 @@ p{
 .bottom_container{
     width: 200px;
     height: 200px;
-    background-color: rgb(111, 9, 245);
+    background-color: green;
     border: solid 10px;
     margin-left: 500px;
 }
