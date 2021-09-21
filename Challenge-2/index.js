@@ -5,7 +5,7 @@ var randomImage="image/"+whoIs+".jpg";
 var image=document.querySelectorAll("img")[0].setAttribute("src",randomImage);
 if(whoIs<2){
     document.querySelector("h1").innerHTML="Shahrukh khan";
-    document.querySelector("p").innerHTML="Actor";
+    document.querySelector("p").innerHTML=" World famous Actor";
 }
 else if(whoIs==2) {
     document.querySelector("h1").innerHTML="Cristiano ronaldo";
