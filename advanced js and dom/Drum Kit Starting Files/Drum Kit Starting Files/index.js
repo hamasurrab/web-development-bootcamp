@@ -1,4 +1,6 @@
 
+//Detecting Button Press
+
 var numberOfDrumButton=document.querySelectorAll(".drum").length;
 for(var i=0; i<numberOfDrumButton;i++){
 
@@ -6,7 +8,19 @@ for(var i=0; i<numberOfDrumButton;i++){
 
 {
     var buttonInnerHTML=this.innerHTML;
-    switch(buttonInnerHTML)
+    makeSound(buttonInnerHTML);
+    buttonAnimation(buttonInnerHTML);
+});
+}
+
+document.addEventListener("keypress",function(event){
+    makeSound(event.key);
+    buttonAnimation(event.key);
+});
+
+
+function makeSound(key){
+switch(key)
     {
         case "w":
         var audio= new Audio("sounds/tom-1.mp3");
@@ -41,19 +55,16 @@ for(var i=0; i<numberOfDrumButton;i++){
 
 
     }
-    
-    // this.style.color="white";
-});
 
 }
+function buttonAnimation(currentKey){
+    var activeButton =document.querySelector("."+currentKey);
+    activeButton.classList.add("pressed");
+    setTimeout(function(){
+        activeButton.classList.remove("pressed");
+    },100);
+}
+    
+    
+    // this.style.color="white";
 
-document.addEventListener("keypress",function(){
-    alert("key pressed");
-    // var audio= new Audio("sounds/tom-1.mp3");
-    // audio.play();
-})
-
-
-
-
- 
