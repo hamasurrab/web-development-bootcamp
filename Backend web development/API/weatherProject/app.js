@@ -13,7 +13,7 @@ app.get("/",function(req,res){
 
     response.on("data",function(data){
         const weatherData=JSON.parse(data)
-    console.log(weatherData);
+    console.log(weatherData) ;
     })
 
     })
