@@ -1,0 +1,15 @@
+{
+  "name": "hamas",
+  "version": "1.0.0",
+  "description": "superheroes name",
+  "main": "index.js",
+  "dependencies": {
+    "superheroes": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hamas",
+  "license": "ISC"
+}
