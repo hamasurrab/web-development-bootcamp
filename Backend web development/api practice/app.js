@@ -24,11 +24,14 @@ const weatherData=JSON.parse(data);
 // console.log(weatherData);
 const temp=weatherData.main.temp;
 const weatherDescription=weatherData.weather[0].description;
+const icon=weatherData.weather[0].icon
+const imgUrl="http://openweathermap.org/img/wn/"+ icon+"@2x.png";
 
 //if multiple {res.send} bhejna ho to use [res.write]
 
 res.write("<h1>The Temp of "+ query+" is "+ temp+" degree celcius.</h1>");
 res.write("<h3>the weatherDescription in "+ query+" is "+ weatherDescription +"</h3>");
+res.write("<img src" + imgUrl +">");
 res.send();
 
 });
