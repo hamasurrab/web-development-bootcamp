@@ -3,9 +3,11 @@ const bodyParser=require("body-parser");
 const { urlencoded } = require("body-parser");
 
 const app=express();
- items=[];
+ items=["buy food","cook food", "eat food" ,"play cricket"];
 
 app.use(bodyParser.urlencoded({extended:true}));
+app.use(express.static("public"));
+
 app.set('view engine', 'ejs');
 
 
