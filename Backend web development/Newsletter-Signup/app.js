@@ -25,11 +25,8 @@ app.use(bodyParser.urlencoded({extended:true}));
 // });
 
 app.get("/",function(req,res){
-    res.write(" <h1>hey i am sakib over here and my code is working</h1>" + "<br>");
-    res.write("<h3>hey my port is running on port 30000</h3>"+"<br>");
-    res.write("<h3>code is working</h3>");
-    res.send();
-})
+  
+});
 
 
 // api -key =477c63c314094fc2713b79de854b4345-us5
