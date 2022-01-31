@@ -1,0 +1,30 @@
+body{
+    background-color: grey;
+    width: 70%;
+    margin: auto;
+}
+
+
+.dice{
+    display: inline-block;
+    text-align: center;
+}
+
+
+img{
+    width: 80%;
+}
+
+.container{
+    text-align: center;
+}
+
+
+
+h1{
+ color: green;
+    margin: 30px;
+}
+h3{
+    color:green;
+}
